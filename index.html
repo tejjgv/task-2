@@ -4,23 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="style.css">
+    <style>
+        /* Add padding between table rows */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px; /* Adjust the padding as needed */
+            text-align: left;
+        }
+
+        /* Style table headers */
+        th {
+            background-color: #f2f2f2; /* Header background color */
+        }
+
+        /* Style table links */
+        .link {
+            text-decoration: none;
+            color: #007BFF; /* Link color */
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        /* Style the box */
+        .box {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+    </style>
     <title>Index Page</title>
 </head>
 <body>
     <div class="box">
         <h1>Index File</h1>
-        <table cellspacing="0">
-        
+        <table>
+            <tr>
+                <th>Tasks</th>
+                <th>Links</th>
+            </tr>
             <tr>
                 <td>BootStrap Tasks</td>
                 <td>
-                    <a href="BootStrap/index.html" class="link">BootStrap Tasks</a>
+                    <a href="BootStrap/index.html" class="link">Click-Me</a>
                 </td>
             </tr>
             <tr>
                 <td>JavaScript Tasks</td>
                 <td>
-                    <a href="JavaScript/index.html" class="link">JavaScript Tasks</a>
+                    <a href="JavaScript/index.html" class="link">Click-Me</a>
                 </td>
             </tr>
         </table>
