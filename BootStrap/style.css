@@ -1,3 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Add padding between table rows */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px; /* Adjust the padding as needed */
+            text-align: left;
+        }
+
+        /* Style the task cells */
+        .task {
+            font-weight: bold;
+        }
+
+        /* Style the links */
+        .link {
+            text-decoration: none;
+            color: #007BFF; /* Link color */
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        /* Style the box */
+        .box {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        /* Style the back button */
+        .back-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .back-button a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    <title>Bootstrap Tasks</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Index</h1>
+        <table>
+            <tr>
+                <td class="task">Task 1 =></td>
+                <td>
+                    <a href="Task 1/index.html" class="link" target="_blank">Visit Page</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="task">Task 2 =></td>
+                <td>
+                    <a href="Task 2/index.html" class="link" target="_blank">Visit Page</a>
+                </td>
+            </tr>
+            <!-- Repeat the same structure for other tasks -->
+        </table>
+    </div>
+    <footer>
+        <button class="back-button"><a href="../index.html" class="back-link">Back</a></button>
+    </footer>
+</body>
+</html>
 /* Reset default margin and padding for better styling */
 * {
     margin: 0;
