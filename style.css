@@ -41,8 +41,9 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
+    border: 20px solid black;
 }
 
 /* Style table cells */
